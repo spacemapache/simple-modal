@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.modal * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal {
+  width: 90%;
+  max-width: 500px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+}
+
+.modal button,
+button {
+  padding: 0.6em 1.5em;
+  border: none;
+  font-size: 1.1em;
+  margin-top: 5px;
+}
